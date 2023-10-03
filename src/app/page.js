@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import FourCardSection from '@/components/template/FourCardSection';
 import LandingSlider from '@/components/LandingSlider';
 import MainSlider from '@/components/MainSlider';
@@ -9,6 +9,7 @@ import CardEffectSlider from '@/components/template/CardEffectSlider';
 import BannerSection from '@/components/template/BannerSection';
 import LandingIconSection from '@/components/template/LandingIconSection';
 import Divider from '@/components/template/Divider';
+
 
 export default function Home() {
   return (

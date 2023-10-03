@@ -18,7 +18,7 @@ const LandingSlider = ({ right, color, img, hideBanner }) => {
     <>
       <section className="mb-10 p-1 md:p-1 md:grid grid-cols-12  items-center gap-5 lg:gap-8 ">
         <div
-          className={`col-span-2 hidden bg-red-300 md:flex gap-6  flex-col justify-between items-center ${hideBanner && "md:hidden"} ${
+          className={`col-span-2 hidden  md:flex gap-6  flex-col justify-between items-center ${hideBanner && "md:hidden"} ${
             !right && 'order-1'
           } `}
         >

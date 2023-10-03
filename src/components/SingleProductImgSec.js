@@ -3,16 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Thumbs, Navigation } from 'swiper/modules';
 import { productsSlider2 } from '@/service/Datas';
 import Image from 'next/image';
-import { autocompleteClasses } from '@mui/material';
 
 const SingleProductImgSec = ({ params: { productId } }) => {
   const [data, setData] = useState('');
   const [activeThumb, setActiveThumb] = useState('');
 
   useEffect(() => {
-    console.log(productsSlider2);
-    console.log(productId);
-
     const temp = productsSlider2.filter((item) => item.id === +productId);
     setData(temp);
   }, [productId]);
